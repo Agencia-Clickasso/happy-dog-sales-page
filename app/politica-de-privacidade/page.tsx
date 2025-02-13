@@ -10,11 +10,11 @@ export default function PoliticaDePrivacidade() {
         <div className="flex justify-center">
           <Link href="/">
             <Image
-              src="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-13%20at%2019.50.43-qchumzeCZ0hb9QqM0Uu7Hy0y5RwjND.png"
               alt="Cães Felizes Logo"
-              width={200}
-              height={80}
-              className="h-20 w-auto"
+              width={300}
+              height={120}
+              className="h-24 w-auto"
             />
           </Link>
         </div>
@@ -121,9 +121,14 @@ export default function PoliticaDePrivacidade() {
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-[#4A3419]">
             <div>© Cães Felizes | Todos Os Direitos Reservados</div>
             <div className="flex gap-4">
-              <Link href="#" className="hover:underline">
+              <a
+                href="https://wa.me/5511993285473?text=Olá,%20gostaria%20de%20saber%20mais%20informações%20sobre%20o%20ebook%20Cão%20Feliz."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
                 Suporte
-              </Link>
+              </a>
               <Link href="/termos-de-uso" className="hover:underline">
                 Termos de Uso
               </Link>
@@ -137,7 +142,7 @@ export default function PoliticaDePrivacidade() {
 
       {/* WhatsApp Float Button */}
       <a
-        href="https://wa.me/your-number"
+        href="https://wa.me/5511993285473?text=Olá,%20gostaria%20de%20saber%20mais%20informações%20sobre%20o%20ebook%20Cão%20Feliz."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 bg-[#25D366] p-4 rounded-full shadow-lg hover:bg-[#128C7E] transition-colors"

@@ -345,9 +345,14 @@ export default function DogEnrichmentLanding() {
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-[#4A3419]">
             <div>© Cães Felizes | Todos Os Direitos Reservados</div>
             <div className="flex gap-4">
-              <Link href="#" className="hover:underline">
+              <a
+                href="https://wa.me/5511993285473?text=Olá,%20gostaria%20de%20saber%20mais%20informações%20sobre%20o%20ebook%20Cão%20Feliz."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
                 Suporte
-              </Link>
+              </a>
               <Link href="/termos-de-uso" className="hover:underline">
                 Termos de Uso
               </Link>
