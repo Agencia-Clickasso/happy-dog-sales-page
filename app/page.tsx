@@ -41,7 +41,14 @@ export default function DogEnrichmentLanding() {
             </p>
 
             <Button className="w-full md:w-auto bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-6 px-8 rounded-full text-lg">
-              QUERO TRANSFORMAR A VIDA DO MEU CÃO
+              <a
+                href="https://pay.kiwify.com.br/eymjNsp"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full h-full flex items-center justify-center"
+              >
+                QUERO TRANSFORMAR A VIDA DO MEU CÃO
+              </a>
             </Button>
           </div>
 
@@ -307,11 +314,18 @@ export default function DogEnrichmentLanding() {
                 <div className="bg-[#F5A524] text-white py-1 px-4 rounded-full inline-block mb-6">Oferta Especial</div>
                 <div className="space-y-2 mb-6">
                   <div className="text-sm text-[#666666]">de R$ 97 por apenas</div>
-                  <div className="text-4xl font-bold text-[#4A3419]">R$ 47,00</div>
+                  <div className="text-4xl font-bold text-[#4A3419]">R$ 46,90</div>
                   <div className="text-sm text-[#666666]">pagamento único</div>
                 </div>
                 <Button className="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-4 rounded-full text-lg">
-                  QUERO TRANSFORMAR A VIDA DO MEU CÃO
+                  <a
+                    href="https://pay.kiwify.com.br/eymjNsp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full h-full flex items-center justify-center"
+                  >
+                    QUERO TRANSFORMAR A VIDA DO MEU CÃO
+                  </a>
                 </Button>
               </div>
 
